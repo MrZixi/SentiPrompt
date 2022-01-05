@@ -1,8 +1,14 @@
 # SentiPrompt
 
-This is the official implementation of the paper [SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2109.08306)
+This is the official repository of the paper [SentiPrompt: Sentiment Knowledge Enhanced Prompt-Tuning for Aspect-Based Sentiment Analysis](https://arxiv.org/abs/2109.08306).
 
-## Dependency
+
+All versions of data used in the paper are published in the "data" directory.
+-  data
+   - penga  # D_20a in paper
+   - pengb  # D_20b in paper
+   - lcx    # D_21 in paper
+<!-- ## Dependency
 Install the package in the requirements.txt, then use the following
 commands to install two other packages
 ```text
@@ -35,4 +41,4 @@ CUDA_VISIBLE_DEVICES=1 python train.py --dataset_name pengb/14lap \
 ```
 
 
-Please do remember to cite this paper if you use our published dataset.
+Please do remember to cite this paper if you use our published dataset. -->
